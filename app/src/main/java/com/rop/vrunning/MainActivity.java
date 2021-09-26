@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity
         getDirection.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // Pruebas de boton
                 // new FetchURL(MainActivity.this).execute(getUrl(place1.getPosition(), place2.getPosition(),"driving"),"driving");
 
                 /*Polyline line = mMap.addPolyline(new PolylineOptions()
